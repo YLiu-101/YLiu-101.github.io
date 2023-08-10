@@ -2,13 +2,16 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <!-- <link rel="stylesheet" href="test.css"> -->
 <link rel="stylesheet" href="bootstrap.css">
-<link href="test-style.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src='script.js'></script>
 
 </head>
+
 <body>
-<nav class = "navbar">
+<nav class = "navbar sticky">
     <div class = "logo"><a href = index.html>Kai Liu</a></div>
     <ul class = "navving">
         <li><a href = #>Blog</a></li>
@@ -16,17 +19,66 @@
         <li><a href = #>Notable Works</a></li>
     </ul>
 </nav>
-<section class="minimal-section">
+<section class="minimal-section y.mandatory-scroll-snapping" >
   <div class="content">
     <div class="text">
-      <h2>Hey There!</h2>
-      <p>Physics Olympiad Medalist. Tutor. Blogger </p>
-      <p>I'm currently a rising senior at Naperville North. Throughout my high school career, I've won numerous physics, math, and chemistry competitions, spoke with national congressmen, and interned at a nuclear fusion startup. On top of this, I've developed my own mathematical and physical proofs, problem sets, and original thought experiments. To learn more about me, feel free to check out my blog below: </p>
+      <h1>Hey there!</h1>
+      <h2>Physics Olympiad Medalist. Tutor. Blogger </h2>
+      <p>I'm currently a rising senior at Naperville North. Throughout my high school career, I've won numerous physics, math, and chemistry competitions, spoke with national congressmen, and interned at a nuclear fusion startup. On top of this, I've developed and published my own mathematical and physical proofs, problem sets, and original thought experiments. To learn more about me, feel free to check out my blog below: </p>
       <a href="#blog" class="btn">Blog</a>
     </div>
+    <div style = "clear:right">
     <div class="image">
-      <img src="selfie.jpg" alt="Selfie of myself" width = 500px height = 70px padding-left=30px>
+      <img src="selfie.jpg" alt="Selfie of myself" width = 500px height = 90px padding-left=50px position: absolute right: 0%;>
     </div>
   </div>
+  </div>
 </section>
+
+<section class="featured">
+  <div class="featured-background"></div>
+  <div class="featured-content">
+    <h2>Featured: AM-GM Inequality Proof</h2>
+    <p>A rigorous, original, physical proof of the classical AM-GM inequality. While there does exist a thermodynamic proof through the use of entropy, my proof only uses the isentropic property of carnot engines. Simple, short, and sweet, this proof opens the world into intersections between physics and mathematics.</p>
+    <a href="#" class="btn">Check it out!</a>
+  </div>
+</section>
+<div class = "highlights">
+  <h1>Highlights</h1>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://www.example.com/link1">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card 1</h5>
+            <p class="card-text">This is the content of card 1.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.example.com/link2">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card 2</h5>
+            <p class="card-text">This is the content of card 2.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="https://www.example.com/link3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card 3</h5>
+            <p class="card-text">This is the content of card 3.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
 </body>
