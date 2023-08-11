@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="test.css"> -->
+<link rel="stylesheet" href="bootstrap.css">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src='script.js'></script>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("navbar.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script>
+<style>
+    body{
+    margin: 0;
+    padding: 0;
+    background-color:#333;
+}
+
+/* Basic styling for the header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Styling for the content section */
+.content-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 90px;
+    padding-left:20px;
+    background-color: lightgray;
+}
+
+/* Styling for the text */
+.work-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Styling for the image */
+.work-stock-image {
+    flex: 1;
+    text-align: right;
+}
+
+/* Make the image responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+</style>
+<title>Kai Liu: Works</title>
+</head>
+
+<body>
+<div id="header"></div>
+<section class="content-section">
+    <div class="work-text">
+        <h2>Works</h2>
+            <p>Some projects that I find fascinating. Feel free to click around and see what you like! </p>
+            <ul>
+              <li><a href = "pdf\AM-GM_Proof.pdf" target="_blank">AM GM Proof Through Thermodynamics</a>: A fascinating proof of a math theorem through physical principles!</li>
+              <li><a href = "pdf\kepler-third-proof.pdf" target="_blank">Kepler's Third Law Proof</a>: A simple proof of Kepler's Third Law, which is conventionally proven in a more convoluted fashion (see Morin's introduction to Classical Mechanics) </li>
+              <li><a href = "pdf\POTW-1.pdf" target="_blank">POTW #1</a> | <a href = "pdf\POTW-1-Solutions.pdf" target="_blank">POTW #1 Solutions</a>: A sample problem for the AP Physics 1 class which I TA for. It's meant to be a challenge problem.</li>
+              <li><a href = "pdf\Rough-em-notes.pdf" target="_blank">Rough EM Notes (with some other addendums)</a>: These are some notes I've written over the years. Let me know of any typos/mistakes, and I'll get back to you as soon as possible. </li>
+
+            </ul>
+    </div>
+    <div class="works-stock-image">
+        <img src="images/mountains.jpeg" alt="Mountain of progress" width="550px">
+    </div>
+</section>
+
+<div id="footer"></div>
+
+</body>
+
