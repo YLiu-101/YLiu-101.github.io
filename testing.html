@@ -1,59 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>404 Page Not Found</title>
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
-  
-  .container {
-    text-align: center;
-    max-width: 600px;
-    padding: 0 20px;
-  }
-  
-  .error-code {
-    font-size: 100px;
-    color: #333;
-  }
-  
-  .error-message {
-    font-size: 24px;
-    color: #666;
-    margin-bottom: 30px;
-  }
-  
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ff5e5e;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
-  
-  .button:hover {
-    background-color: #e54343;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button with Icon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .icon-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .icon {
+            margin-right: 5px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <div class="error-code">404</div>
-    <div class="error-message">Oops! Page not found.</div>
-    <a href="/" class="button">Go back to Home</a>
-  </div>
+    <button class="icon-button">
+        <i class="fas fa-star icon"></i>
+        Click Me
+    </button>
 </body>
 </html>
