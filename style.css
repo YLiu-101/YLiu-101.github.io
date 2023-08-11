@@ -333,3 +333,28 @@ body, h1, h2, p {
 .padded-image{
   margin-top:70px;
 }
+
+/* Basic styling for the link */
+.link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect */
+.link-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Active effect */
+.link-button:active {
+  background-color: #003366;
+  border-color: #003366;
+}

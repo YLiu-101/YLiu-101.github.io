@@ -7,20 +7,26 @@
 <link rel="stylesheet" href="bootstrap.css">
 <link href="style.css" rel="stylesheet" type="text/css" />
 <script src='script.js'></script>
-
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("navbar.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script>
 </head>
 
 <body>
-<nav class = "navbar sticky">
-    <div class = "logo"><a href = index.html>Kai Liu</a></div>
-    <ul class = "navving">
-        <li><a href = #>Blog</a></li>
-        <li><a href = #>Projects</a></li>
-        <li><a href = #>Notable Works</a></li>
-    </ul>
-</nav>
+<div id="header"></div>
+
 <br>
 <div class = "padded-image">
 <img src="images\Highlights.png" width="100%" padding-top:"100px">
 </div>
+<div id="footer"></div>
+
 </body>
