@@ -215,7 +215,10 @@ li a:hover {
   width: 100%;
   height: 350px; /* Adjust the height as needed */
   /* background-image: url('tutor-stock.jpeg');  */
-  background-color: #333;
+  padding-left: 200px;
+  padding-right: 200px;
+
+  background-color: #8ce9e9af;
   background-size: cover;
   background-position: center;
   text-align: left;
@@ -255,6 +258,22 @@ li a:hover {
   margin-bottom: 0px;
   line-height: 150%;
   font-family:Arial, Helvetica, sans-serif;
+}
+
+.featured1 .btn {
+  font-size:25px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #447eeb;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.featured1 .btn:hover {
+  background-color: #1f66eb;
 }
 
 .padded-image{

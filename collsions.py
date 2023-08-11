@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
 def run_simulation(positions, velocities, masses, restitution):
-    
+
   """  Generates and saves the graph and data on positions + velocities of objects in question given initial conditions
 
   @param: Initial positions, velocities, masses, and
@@ -109,4 +109,3 @@ velocities = np.array(velocities).astype('float64')
 masses = np.array(masses).astype('float64')
 # collision_count = 0
 run_simulation(positions, velocities, masses, restitution)
-print(collision_count)
