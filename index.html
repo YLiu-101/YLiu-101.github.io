@@ -1,110 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Yikai Liu</title>
-    <meta name="description" content="A brief   description of your site for search engines">
-    <meta name="author" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="test.css"> -->
+<link rel="stylesheet" href="bootstrap.css">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src='script.js'></script>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("navbar.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script>
+<title>Kai Liu: Physics Olympiad Medalist</title>
+</head>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+<body>
+  <div id="header"></div>
 
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
-  </head>
-  
-  <body>
+<section class="minimal-section y.mandatory-scroll-snapping" >
+  <div class="content">
+    <div class="text">
+      <h1>Hey there!</h1>
+      <h2>Physics Olympiad Medalist. Tutor. Blogger </h2>
+      <p>I'm currently a rising senior at Naperville North. Throughout my high school career, I've won numerous physics, math, and chemistry competitions, spoke with national congressmen, and interned at a nuclear fusion startup. On top of this, I've developed and published my own mathematical and physical proofs, problem sets, and original thought experiments. To learn more about me, feel free to check out my blog below: </p>
+      <a href="#blog.html" class="btn">Blog</a>
+    </div>
+    <div style = "clear:right">
+    <div class="image">
+      <img src="images\selfie.jpg" alt="Selfie of myself" width = 500px height = 90px padding-left=50px position: absolute right: 0%;>
+    </div>
+  </div>
+  </div>
+</section>
 
-    <header id="header">
-      <img src="logo.png" width = "50" height = "50">
-      <h1>Yikai (Kai) Liu</h1>
-      <p>High schooler dabbling in physics, math, and computer science</p>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#Works">Works</a></li>
-        <li><a href="#contact">Contact</a></li>
+<section class="featured">
+  <div class="featured-background"></div>
+  <div class="featured-content">
+    <h2>Featured: AM-GM Inequality Proof</h2>
+    <p>A rigorous, original, physical proof of the classical AM-GM inequality. While there does exist a thermodynamic proof through the use of entropy, my proof only uses the isentropic property of carnot engines. Simple, short, and sweet, this proof opens the world into intersections between physics and mathematics.</p>
+    <a href="pdf\AM-GM_Proof.pdf" class="btn">Check it out!</a>
+  </div>
+</section>
 
-      </ul>                 
-    </header>
-   
-    <div id="container">
-      <div class="inner">
-        <div id="content"> 
-          
-          <div id="home" class="content-region hide">
-            <h2>Home</h2>
-            <p>
-               Welcome to my website! Feel free to click around.
-            </p>
+<section class="featured1">
+  <div class="featured1-background"></div>
+  <div class="featured1-content">
+    <center><h2>Looking for a tutor?</h2></center>
+    <p>I am open to tutor in SAT, physics, math, or chemistry. Scheduling is flexible and on-demand. For more information, please check out the flyer below. Expect rates to be $20-50 an hour.</p>
+    <center><a href="tutor.html" class="btn">Tutoring</a></center>
+  </div>
+</section>
+
+
+
+
+<!-- <section class="tutoring-section" style="background-color: aquamarine;">
+  <center><h2>Tutor With Me</h2></center>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="tutoring-card">
+          <div class="tutoring-icon">
+            <i class="fas fa-chalkboard-teacher"></i>
           </div>
-          <div id="Works" class="content-region hide">
-            <h2>Works</h2>
-            <p>Some projects that I find fascinating. Feel free to click around and see what you like! </p>
-            <ul>
-              <li><a href = "pdf\AM-GM_Proof.pdf" target="_blank">AM GM Proof Through Thermodynamics</a>: A fascinating proof of a math theorem through physical principles!</li>
-              <li><a href = "pdf\kepler-third-proof.pdf" target="_blank">Kepler's Third Law Proof</a>: A simple proof of Kepler's Third Law, which is conventionally proven in a more convoluted fashion (see Morin's introduction to Classical Mechanics) </li>
-              <li><a href = "pdf\POTW-1.pdf" target="_blank">POTW #1</a> | <a href = "pdf\POTW-1-Solutions.pdf" target="_blank">POTW #1 Solutions</a>: A sample problem for the AP Physics 1 class which I TA for. It's meant to be a challenge problem.</li>
-              <li><a href = "pdf\Rough-em-notes.pdf" target="_blank">Rough EM Notes (with some other addendums)</a>: These are some notes I've written over the years. Let me know of any typos/mistakes, and I'll get back to you as soon as possible. </li>
-
-            </ul>
+          <div class="tutoring-title">
+            Personalized Tutoring
           </div>
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              I have won numerous prestigious physics and math competitions, currently conducting machine learning projects, and am continuously expanding my set of skills and projects. Always curious to learn more, especially those in math, physics, and computer science fields!             
-            </p>
-            <p>
-              Here is a highlight of some accolades I've accumulated over the years:
-            </p>
-            <ul>
-              <li>Physics Bowl: 14th Globally | 5th Nationally (2023)</li>
-              <li>Sir Isaac Newton Exam: 9th Globally (2023)</li>
-              <li>Science Bowl National Finalist (2023)</li>
-              <li>AIME Qualifier (2023)</li>
-              <li>USAPHO Bronze Medalist (2022)</li> 
-            </ul>
-
-            Be sure to check out some of my past projects <a href = "#Works">here</a>!
+          <div class="tutoring-description">
+            Get one-on-one tutoring tailored to your learning style and pace. Achieve your academic goals with dedicated support.
           </div>
-          
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <section>
-              <h3>Social</h3>
-              <ul class="icons alt">
-                <li><a href="https://www.linkedin.com/in/kai-liu-a0543524a/" target="_blank">Linkedin</a></li>
-                <li><a href="https://github.com/YLiu-101" target="_blank">GitHub</a></li>
-              </ul>
-            </section>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="tutoring-card">
+          <div class="tutoring-icon">
+            <i class="fas fa-book"></i>
           </div>
-
-         
-          
+          <div class="tutoring-title">
+            Diverse Subjects
+          </div>
+          <div class="tutoring-description">
+            We offer tutoring in a wide range of subjects, from math and science to languages and humanities. Whatever you need help with, we've got you covered.
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="tutoring-card">
+          <div class="tutoring-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div class="tutoring-title">
+            Flexible Schedule
+          </div>
+          <div class="tutoring-description">
+            Choose a schedule that fits your busy lifestyle. We offer flexible tutoring hours, including evenings and weekends.
+          </div>
         </div>
       </div>
     </div>
+  </div>
+</section>
 
-    <footer>  
-      ©2023 - Yikai Liu
-    </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
-</html>
+</div>
+</div> -->
+<div id="footer"></div>
+</body>
