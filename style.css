@@ -12,7 +12,7 @@
 }
 body{
   margin: 0px;
-  /* background-color: #333; */
+  background-color: #333;
 }
 .logo a{
   color: whitesmoke;
@@ -42,66 +42,7 @@ li {
   padding: 24px 16px;
   text-decoration: none;
 }
-/* CSS Reset */
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 
-/* General Styles */
-/* body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f5f5f5;
-  color: #333;
-} */
-
-section.newsletter-section {
-  background-color: #f9f9f9;
-  padding: 40px;
-  text-align: center;
-  color:black;
-}
-
-section.newsletter-section .content {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-section.newsletter-section h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-section.newsletter-section p {
-  margin-bottom: 30px;
-}
-
-section.newsletter-section .newsletter-form {
-  display: flex;
-  justify-content: center;
-}
-
-section.newsletter-section .newsletter-form input[type="email"] {
-  padding: 10px;
-  border: none;
-  border-radius: 5px 0 0 5px;
-}
-
-section.newsletter-section .newsletter-form button {
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-section.newsletter-section .newsletter-form button:hover {
-  background-color: #555;
-}
 
 section.minimal-section {
   background-color: #e3ecfad0;
@@ -114,8 +55,6 @@ section.minimal-section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  
-  /* padding-right: 20px; */
   }
 
 
@@ -194,25 +133,13 @@ li a:hover {
   scroll-snap-type: y mandatory;
 }
 
-.container {
-  display: flex;
-  overflow: auto;
-  outline: 1px dashed lightgray;
-  flex: none;
-}
+
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* Reset some default styles for consistency */
-body, h1, h2, p {
-  margin: 0;
-  padding: 0;
-  font-family:Arial, Helvetica, sans-serif;
-
-}
 
 /* Style for the featured section */
 .featured {
@@ -261,7 +188,7 @@ body, h1, h2, p {
   font-family:Arial, Helvetica, sans-serif;
 }
 
-.btn {
+.featured .btn {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
@@ -272,7 +199,7 @@ body, h1, h2, p {
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+.featured .btn:hover {
   background-color: #1f66eb;
 }
 
