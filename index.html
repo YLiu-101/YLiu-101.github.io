@@ -7,25 +7,30 @@
 <link rel="stylesheet" href="bootstrap.css">
 <link href="style.css" rel="stylesheet" type="text/css" />
 <script src='script.js'></script>
-
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("navbar.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script>
+<title>Kai Liu: Physics Olympiad Medalist</title>
 </head>
 
 <body>
-<nav class = "navbar sticky">
-    <div class = "logo"><a href = index.html>Kai Liu</a></div>
-    <ul class = "navving">
-        <li><a href = #>Blog</a></li>
-        <li><a href = #>Projects</a></li>
-        <li><a href = #>Notable Works</a></li>
-    </ul>
-</nav>
+  <div id="header"></div>
+
 <section class="minimal-section y.mandatory-scroll-snapping" >
   <div class="content">
     <div class="text">
       <h1>Hey there!</h1>
       <h2>Physics Olympiad Medalist. Tutor. Blogger </h2>
       <p>I'm currently a rising senior at Naperville North. Throughout my high school career, I've won numerous physics, math, and chemistry competitions, spoke with national congressmen, and interned at a nuclear fusion startup. On top of this, I've developed and published my own mathematical and physical proofs, problem sets, and original thought experiments. To learn more about me, feel free to check out my blog below: </p>
-      <a href="#blog" class="btn">Blog</a>
+      <a href="#blog.html" class="btn">Blog</a>
     </div>
     <div style = "clear:right">
     <div class="image">
@@ -105,4 +110,5 @@
 
 </div>
 </div> -->
+<div id="footer"></div>
 </body>
