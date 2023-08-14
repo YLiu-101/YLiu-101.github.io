@@ -1,9 +1,12 @@
+# print("hi")
+
 import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
 def run_simulation(positions, velocities, masses, restitution):
 
   """  Generates and saves the graph and data on positions + velocities of objects in question given initial conditions
+
 
   @param: Initial positions, velocities, masses, and
   """
@@ -102,7 +105,7 @@ def run_simulation(positions, velocities, masses, restitution):
   plt.show()
 positions = [0,1,2] #For now, we'll make the positions array in increasing order, but we'll have to write an algorithm to implement this later!
 velocities = [0,0,-5]
-masses = [1e99,1,1000000000]
+masses = [1e99,1,1000000]
 restitution = 1
 positions = np.array(positions).astype('float64')
 velocities = np.array(velocities).astype('float64')
