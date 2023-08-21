@@ -53,5 +53,8 @@ main {
         padding: 1rem;
     }
 }
-
-ul { list-style-type: none; padding: 0px; margin: 0px }
+/*Removed the bullet points to make it centered in page*/
+ul { list-style-type: none;
+     padding: 0px; 
+     margin: 0px 
+    }
