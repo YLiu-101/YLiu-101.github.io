@@ -43,6 +43,13 @@ main {
     font-weight:bold;
 }
 
+.blog-item h3 {
+    font-size: 1.0rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-weight:bold;
+}
+
 .blog-item p {
     color: #777;
     margin-bottom: 1rem;

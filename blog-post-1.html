@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="test.css"> -->
+<link rel="stylesheet" href="bootstrap.css">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="blog-post.css" rel="stylesheet" type="text/css" />
+
+<script src='script.js'></script>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("navbar.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script>
+<title>Kai Liu: Physics Olympiad Medalist</title>
+</head>
+
+<body>
+<div id="header"></div>
+
+<header class="header">
+    <h1 class="title">A Bit of Physical Mathematics</h1>
+    <p class="subtitle">Kai Liu</p>
+  </header>
+  
+  <main class="content">
+    <article class="post">
+
+      <!-- <img src="featured-image.jpg" alt="Modern CSS Wonders"> -->
+      <p class="date">Published on August 26, 2023</p>
+      
+      <p>	“Physics is math” is a common joke among students studying theoretical physics. And really, are they wrong? Math is used everywhere. Calculus deepens the study of all branches of physics. Linear Algebra aids quantum theory. Tensors and partial differential equations are the heart of E&M.
+    </p>
+    <p>		While this is true, physics can also surprisingly reveal some insights into mathematical problems as well. We’ll start off with one example, and then list a few problems just for fun. No solutions will be provided, but feel free to contact me if you’d like a hint - I’m happy to accommodate. 
+    </p>
+
+    <p>		In solving the problems, you might notice that some of them are solved much more easily with physics than mathematics. 
+    </p>
+
+      <h2>Helpful Example</h2>
+      <p><b>Example: </b> Given a 10 meter long flexible rope, what is the greatest area it can enclose? 
+      </p>
+      
+      <h2>The Solution</h2>
+      <p><b>Solution:</b>  We start off by translating this to a physical situation. Here, we’ll imagine that this rope is filled with some 2-D gas with a constant “pressure” P pointing outwards. This means that if the rope was to start off with an arbitrary area, then its potential is given by U=-PA. Since any system works to minimize its potential to reach equilibrium, then this system must maximize its area.
+    </p>
+      
+      <h2>Some Problems</h2>
+      Just for practice!
+      <h3>Shapes and Enclosed Area</h3>
+<ol>
+  <li>Suppose that the rope is fixed at a few points instead. Describe the shape that maximizes the enclosed area.</li>
+</ol>
+
+<h3>Area Vector of Closed Solids</h3>
+<ol>
+  <li>Define the area vector of a closed solid to be orthogonal to the surface with a magnitude equal to the area of the face. Assume it points outwards. For example, a cube of side length 10 has 6 such vectors, all pointing outwards with magnitude 100.</li>
+  <ol type="a">
+    <li>Prove that the vector sum of the area vectors for a regular tetrahedron is zero.</li>
+    <li>Prove that this holds true for any closed figure.</li>
+  </ol>
+</ol>
+
+<h3>Distances from Point to Sides of Regular Polygon</h3>
+<ol>
+  <li>Let R be the region inside a regular polygon with N sides. Choose an arbitrary point P in R. Prove that the sum of the distances from each side (if that segment is extended to a line) to P is fixed for:</li>
+  <ul type="a">
+    <li>N=3</li>
+    <li>Any N?</li>
+  </ul>
+</ol>
+      
+    </article>
+  </main>
+<div id="footer"></div>
+
+</body>
