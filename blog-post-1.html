@@ -20,7 +20,7 @@ $(function(){
   $("#footer").load("footer.html"); 
 });
 </script>
-<title>Kai Liu: Physics Olympiad Medalist</title>
+<title>A Bit of Physical Mathematics | Kai Liu</title>
 </head>
 
 <body>
@@ -35,9 +35,9 @@ $(function(){
     <article class="post">
 
       <!-- <img src="featured-image.jpg" alt="Modern CSS Wonders"> -->
-      <p class="date">Published on August 26, 2023</p>
+      <p class="date">Published on August 27, 2023</p>
       
-      <p>	“Physics is math” is a common joke among students studying theoretical physics. And really, are they wrong? Math is used everywhere. Calculus deepens the study of all branches of physics. Linear Algebra aids quantum theory. Tensors and partial differential equations are the heart of E&M.
+      <p>	“Physics is math” is a common joke among students just starting to study theoretical physics. And really, are they wrong? Math is used everywhere. Calculus deepens the study of all branches of physics. Linear Algebra aids quantum theory. Tensors and partial differential equations are the heart of E&M.
     </p>
     <p>		While this is true, physics can also surprisingly reveal some insights into mathematical problems as well. We’ll start off with one example, and then list a few problems just for fun. No solutions will be provided, but feel free to contact me if you’d like a hint - I’m happy to accommodate. 
     </p>
@@ -52,25 +52,23 @@ $(function(){
       <h2>The Solution</h2>
       <p><b>Solution:</b>  We start off by translating this to a physical situation. Here, we’ll imagine that this rope is filled with some 2-D gas with a constant “pressure” P pointing outwards. This means that if the rope was to start off with an arbitrary area, then its potential is given by U=-PA. Since any system works to minimize its potential to reach equilibrium, then this system must maximize its area.
     </p>
+<figure>
+  <img src="images\fbd-rope-constant-p.JPG" alt="Rough free body diagram">
+  <figcaption>Fig.1 - From this freebody diagram, we can see that Tdθ = PRdθ</figcaption>
+</figure>
+    <p>If we analyze a small segment of this rope, then it becomes clear that the tension must be uniform, and that then implies the shape must be circular. 
+    </p>
       
       <h2>Some Problems</h2>
       Just for practice!
-      <h3>Shapes and Enclosed Area</h3>
 <ol>
   <li>Suppose that the rope is fixed at a few points instead. Describe the shape that maximizes the enclosed area.</li>
-</ol>
 
-<h3>Area Vector of Closed Solids</h3>
-<ol>
   <li>Define the area vector of a closed solid to be orthogonal to the surface with a magnitude equal to the area of the face. Assume it points outwards. For example, a cube of side length 10 has 6 such vectors, all pointing outwards with magnitude 100.</li>
   <ol type="a">
     <li>Prove that the vector sum of the area vectors for a regular tetrahedron is zero.</li>
     <li>Prove that this holds true for any closed figure.</li>
   </ol>
-</ol>
-
-<h3>Distances from Point to Sides of Regular Polygon</h3>
-<ol>
   <li>Let R be the region inside a regular polygon with N sides. Choose an arbitrary point P in R. Prove that the sum of the distances from each side (if that segment is extended to a line) to P is fixed for:</li>
   <ul type="a">
     <li>N=3</li>
