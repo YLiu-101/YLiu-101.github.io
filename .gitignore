@@ -1,8 +1,9 @@
-test.html
-testing.css
-test-style.css
-testing.html
-flasktest.py
-Block-Velocity-Data.csv
-x-v-analysis.png
-Block-Postion-Data.csv
+.DS_Store
+.idea/
+*.log
+*.iml
+.tern-port
+yarn.lock
+package-lock.json
+node_modules/
+.vscode
