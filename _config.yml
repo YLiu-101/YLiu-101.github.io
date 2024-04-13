@@ -7,11 +7,10 @@ title: Yikai Liu
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Yikai Liu
 language: en
 timezone: ''
-# themes/cactus/_config.yml
-colorscheme: light
+
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://Yliu-101.github.io
 permalink: :year/:month/:day/:title/
