@@ -1,48 +1,26 @@
 {
-  "name": "hexo-theme-cactus",
-  "version": "3.0.0",
-  "description": "A responsive, clean and simple theme for Hexo.",
-  "main": "index.js",
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "lint": "gulp lint --silent",
-    "test": "gulp validate --silent",
-    "clean": "stylus-supremacy format source/css/**/*.styl --options .stylintrc -r"
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/probberechts/cactus-dark.git"
-  },
-  "keywords": [
-    "Hexo",
-    "Theme",
-    "Cactus"
-  ],
-  "author": "Pieter Robberechts",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/probberechts/cactus-dark/issues"
-  },
-  "homepage": "https://github.com/probberechts/cactus-dark#readme",
-  "type": "module",
-  "devDependencies": {
-    "del": "*",
-    "gulp": "^4.0.0",
-    "gulp-decompress": "*",
-    "gulp-download-stream": "*",
-    "gulp-jshint": "*",
-    "gulp-stylint": "*",
-    "js-yaml": "*",
-    "jshint": "^2.9.6",
-    "jshint-stylish": "*",
-    "stylelint-formatter-pretty": "^3.1.0",
-    "stylint": "*",
-    "stylus-supremacy": "^2.12.2"
+  "hexo": {
+    "version": "7.1.1"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "*",
-    "clipboard": "^2.0.4",
-    "jquery": "^3.3.1",
-    "justifiedGallery": "^3.6.5",
-    "vazir-font": "*"
+    "hexo": "^7.0.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-stylus": "^3.0.0",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-landscape": "^1.0.0"
   }
 }
