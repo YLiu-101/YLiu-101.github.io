@@ -1,6 +1,7 @@
 # Kai Liu
 
 > _“If you wish to strive for peace of soul and pleasure, then believe; if you wish to be a devotee of truth, then inquire. - Friedrich Nietzsche”_
+
 > “You only live once, but if you do it right, once is enough. - Mae West”
 
 Poetry. Philosophy. Science.
@@ -16,7 +17,6 @@ Poetry. Philosophy. Science.
 - 🌌 **As a Fledging Scientist**  
   Ranked among the top physics and math students in the nation. I'm always curious about how and why the world works. 
   
-  Some highlights: 
 - Sole author of a published [paper](https://doi.org/10.1080/0025570X.2024.2401297) 
 - 2x USA Physics Olympiad Bronze Medalist
 - USA Chemistry Olympiad Semifinalist
