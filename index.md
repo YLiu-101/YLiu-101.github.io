@@ -1,14 +1,16 @@
 # Kai Liu
 
-> _“If you wish to strive for peace of soul and pleasure, then believe; if you wish to be a devotee of truth, then inquire.”_
+> _“If you wish to strive for peace of soul and pleasure, then believe; if you wish to be a devotee of truth, then inquire. - Friedrich Nietzsche”_
+> “You only live once, but if you do it right, once is enough. - Mae West”
 
-Welcome to a place where I post some of my thoughts, poetic articulations, and inqueries. 
+Poetry. Philosophy. Science.
 ---
 
 ## Who am I?
 
-- 🧠 **As a College Student:**
-    CS+Math @ Purdue, and undergraduate machine learning researcher. I am currently trying to get into systems programming and am reading up K. N Knight's _Modern Approach to C Programming_     
+- 🧠 **As a College Student**
+
+    CS+Math @ Purdue, and undergraduate machine learning researcher. Currently reading up K. N Knight's _Modern Approach to C Programming_     
   
 
 - 🌌 **As a Fledging Scientist**  
@@ -34,19 +36,14 @@ Welcome to a place where I post some of my thoughts, poetic articulations, and i
   Life is like one big math test. When I think I've found some answers, I'll share them with you.
 
 - **Personal Journey**  
-  I am deeply ambitious, yet striving to live life to the fullest. It's hard. I'll write about it.
+  I am deeply ambitious, yet I strive to live life to the fullest. I think it's the best way to live life, and I'll talk about it.
 
 ---
 
 ## Some of my Inspirations
 
-- 🖋️ **Favorite Authors**: Seneca, Stephen King.  
-- 📚 **Books That Shaped Me**: _Letter of a Stoic_, _An Introduction to Classical Mechanics_ :P, _Temple of the Golden Pavilion_.
-- 🧬 **People**: Steve Jobs, Lyndon B Johnson, and countless other people who have inspired me through their wit, passion, and drive.
+- 🖋️ **Favorite Authors**: Seneca, Stephen King
+- 📚 **Books That Shaped Me**: _Letter of a Stoic_, _An Introduction to Classical Mechanics_ :P
+- 🧬 **People**: Steve Jobs, Lyndon B Johnson, and countless other people who have inspired me through their wit, passion, and drive
 
----
-
-> “You only live once, but if you do it right, once is enough.”
-
-- Mae West
 
