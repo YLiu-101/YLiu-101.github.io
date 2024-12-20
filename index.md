@@ -17,12 +17,12 @@ Poetry. Philosophy. Science.
 - 🌌 **As a Fledging Scientist**  
   Ranked among the top physics and math students in the nation. I'm always curious about how and why the world works. 
   
-- Sole author of a published [paper](https://doi.org/10.1080/0025570X.2024.2401297) 
-- 2x USA Physics Olympiad Bronze Medalist
-- USA Chemistry Olympiad Semifinalist
-- Top 14 in Physics Bowl (among ~10k students across 25+ countries) 
+    - Sole author of a [published paper](https://doi.org/10.1080/0025570X.2024.2401297) 
+    - 2x USA Physics Olympiad Bronze Medalist
+    - USA Chemistry Olympiad Semifinalist
+    - Top 14 in Physics Bowl (among ~10k students across 25+ countries) 
 
-- 🎙️ **Storyteller**  
+- 🎙️ **As a Storyteller**  
   Host of a podcast and a [fledgling YouTuber](https://www.youtube.com/@bitsofkai), sharing insights on success, philosophy, and personal growth.
 
 ---
@@ -30,7 +30,7 @@ Poetry. Philosophy. Science.
 ## What You'll Find Here
 
 - **Projects & Research**  
-  Some mathematical/computer science tangents about some interesting things out there.
+  Some mathematical/computer science tangents about some interesting things I find.
 
 - **Philosophical Musings**  
   Life is like one big math test. When I think I've found some answers, I'll share them with you.
