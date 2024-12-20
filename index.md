@@ -42,7 +42,7 @@ Welcome to a place where I post some of my thoughts, poetic articulations, and i
 
 - 🖋️ **Favorite Authors**: Seneca, Stephen King.  
 - 📚 **Books That Shaped Me**: _Letter of a Stoic_, _An Introduction to Classical Mechanics_ :P, _Temple of the Golden Pavilion_.
-- 🧬 **People**: Steve Jobs, Lyndon B Johnson, and countless other people who have inspired me through their wit, passion, and 
+- 🧬 **People**: Steve Jobs, Lyndon B Johnson, and countless other people who have inspired me through their wit, passion, and drive.
 
 ---
 
