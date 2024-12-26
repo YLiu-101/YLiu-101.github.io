@@ -7,7 +7,7 @@ I consider myself to be a very intense person. Just a few years ago, I was pulli
 
 But such work at that pace often comes at a price. In particular, I’d often find myself waking up and feeling a slight drudgery. A weird cold feeling that was lazy and made me want to just go back to bed or just watch low quality youtube videos.
 
-But I almost always pushed through it. I knew that I had goals and standards I wanted to achieve, and I knew that missing one day could be the start of a string of excuses to miss even more. I raised my standards for myself and relentlessly went through the cycle of studying for physics, ultimately becoming one of the [top physics students in the nation](yliu-101.github.io).
+But I almost always pushed through it. I knew that I had goals and standards I wanted to achieve, and I knew that missing one day could be the start of a string of excuses to miss even more. I raised my standards for myself and relentlessly went through the cycle of studying for physics, ultimately becoming one of the [top physics students in the nation](https://yliu-101.github.io/).
 
 I look back fondly on those days, and I love to rave about the grind and my devotion to pursuing something that I truly found really interesting. 
 
