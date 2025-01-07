@@ -31,16 +31,16 @@ I believe that everyone should have their own philosophy when it comes to their 
 # What Could I Have Done Better?
 
 ### **1. Be Less Hard on Myself**
-Maybe I did love physics, and I did have a real passion for it. But the truth is that, even with a passion for physics, I was ultimately still a human being. My discipline and relentless “No Off-Days” attitude meant that I often worked long hours without truly learning much—or learning slowly and unwillingly.  
+Maybe I did love physics, and I did have a real passion for it. But the truth is that, even with a passion for physics, I was ultimately still a human being. My discipline and relentless “No Off-Days” attitude meant that I often worked long hours without truly learning much—or learning slowly and inefficiently.  
 
-I felt my mind’s cogs moving slower and slower as I willed myself through it without pursuing any other interests. Sure, I had strong self-will and could make myself do things I didn’t feel like doing, but I had an unrealistic view of what it meant to improve at physics. Improvement doesn’t mean eating, living, and breathing physics 24/7—I needed to allow myself rest and time to return to my natural state.
+My exceptionally strong self-will meant that I could make myself do things I didn’t feel like doing, but I had an unrealistic view of what it meant to improve at physics. Improvement doesn’t mean eating, living, and breathing physics 24/7—I needed to allow myself rest and time to return to my natural state.
 
 ---
 
 ### **2. Diversify More**
-Physics started as a pure passion, but toward the latter half, it turned into more of an internal battle. Subconsciously, I didn’t feel like doing it anymore, but a part of me believed any time spent on non-physics activities was wasted.  
+Discipline and self-control in a single area often comes at a cost.
 
-This naive notion hindered my learning (it’s hard to learn when there’s a raging internal battle in your subconscious) and made me narrower as an individual. By the time I graduated high school, the only books I had read were:  
+It hindered my learning (it’s hard to learn when there’s a raging internal battle in your subconscious) and made me narrower as an individual. By the time I graduated high school, the only books I had read were:  
 - *An Introduction to Classical Mechanics*  
 - *Problems and Solutions in Introductory Mechanics*  
 - *Physics* (by HRK)  
