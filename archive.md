@@ -5,41 +5,42 @@ title: 🐐 Blogs
 
 <style>
 .blog-list {
-  list-style: none;
-  padding: 0;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 1rem 0;
 }
 .blog-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1rem 0;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #eee;
+  display: flex !important;
+  align-items: baseline !important;
+  margin: 0.3rem 0 !important;
+  padding: 0 !important;
+  line-height: 1.4 !important;
 }
 .blog-date {
-  color: #666;
-  font-size: 0.9rem;
-  min-width: 120px;
-}
-.blog-title {
-  flex: 1;
-  text-align: right;
+  color: #666 !important;
+  font-size: 0.9rem !important;
+  width: 150px !important;
+  flex-shrink: 0 !important;
+  text-decoration: none !important;
+  cursor: default !important;
+  margin-right: 1rem !important;
 }
 .blog-title a {
-  text-decoration: none;
-  color: #333;
+  text-decoration: none !important;
+  color: #333 !important;
+  font-weight: normal !important;
 }
 .blog-title a:hover {
-  text-decoration: underline;
-  color: #007acc;
+  text-decoration: underline !important;
+  color: #007acc !important;
 }
 </style>
 
-<ul class="blog-list">
+<div class="blog-list">
 {% for post in site.posts %}
-  <li class="blog-item">
-    <span class="blog-date">{{ post.date | date: "%B %d, %Y" }}</span>
-    <span class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
-  </li>
+  <div class="blog-item">
+    <div class="blog-date">{{ post.date | date: "%B %d, %Y" }}</div>
+    <div class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+  </div>
 {% endfor %}
-</ul>
+</div>
