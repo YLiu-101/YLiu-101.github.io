@@ -3,8 +3,10 @@
 You’re probably mispricing your time.
 
 If we plot the value of your time over time, you’d find that there will not be any moment in the future where the value exceeds its present value.
+![image](https://github.com/user-attachments/assets/562f890d-74c5-43fd-af18-da34113f5bd3)
 
 The time this year is worth more, on average, than the time next year. And this decade will be more important for you than the next one. However, on the other hand, there is another interesting trend - society’s pricing of our time tends to be the exact inverse. On average, society values our time right now far less than it will in 10 years or more. It sees us as being extremely inexperienced, unable to produce much value for others.
+![image](https://github.com/user-attachments/assets/6a5c70fa-45a8-49e2-92f8-2302c7758549)
 
 Ok sure Kai, but why does this even matter? Let me show you.
 
