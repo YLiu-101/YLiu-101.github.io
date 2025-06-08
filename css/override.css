@@ -3,6 +3,26 @@ hr {
   margin-bottom: 20px;
 }
 
+/* Hide any author/social elements that might appear in navbar */
+.site-header .social-media-list,
+.site-header .p-author,
+.site-header .h-card,
+.site-header [rel="author"],
+.site-nav .social-links,
+.site-nav .author-link,
+.site-nav .page-link[href*="author"],
+.site-nav .page-link[href*="about"],
+.minima-social-icons {
+  display: none !important;
+}
+
+/* Force hide any text nodes containing author name in nav */
+.site-nav a[href*="kai"],
+.site-nav a[href*="Kai"],
+.site-nav .page-link:contains("Kai Liu") {
+  display: none !important;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
