@@ -10,9 +10,7 @@ The time this year is worth more, on average, than the time next year. And this 
 
 Ok sure Kai, but why does this even matter? Let me show you.
 
-{% raw %}
-For one, this literally implies that it is extremely unwise for anyone young to align their self-worth, effort, or large proportion of time for any job. If a person works an internship paying $45/hour primarily for the money, then this person is implicitly telling themselves that their time is only worth $45/hour. This person is also implying that their time is worth less than $45/hour at any point in the future. [1]
-{% endraw %}
+For one, this literally implies that it is extremely unwise for anyone young to align their self-worth, effort, or large proportion of time for any job. If a person works an internship paying &#36;45/hour primarily for the money, then this person is implicitly telling themselves that their time is only worth &#36;45/hour. This person is also implying that their time is worth less than &#36;45/hour at any point in the future. [1]
 
 In other words, if you ever take on a job, spend time in class, or volunteer, you’d be wise to have strong selfish reasons for doing so. Don’t do things simply for “experience” or for “skills” - these conventional, non-meaningful assets are directly aligned with the second chart (pretty much linear ROI). On the other hand, having a strong personal reason directly compounds on the principal of your youth, leading to rapid exponential growth in your current progress.
 
